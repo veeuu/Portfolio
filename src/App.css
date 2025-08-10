@@ -35,10 +35,14 @@ section {
   padding: 14px 0;
 }
 .brand {
-  font-weight:700;
+  font-weight: 700;
   color: #17494d;
   letter-spacing: -0.2px;
+  margin-left: 20px; /* Added this to move brand slightly right */
 }
+
+/* Remove the nav-links styles completely or leave them if you plan to add links later */
+
 .nav-links a {
   margin-left: 22px;
   color: #5b6b6b;
