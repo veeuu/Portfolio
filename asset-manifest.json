@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/Portfolio/static/css/main.0a0f87c1.css",
+    "main.js": "/Portfolio/static/js/main.0469aa08.js",
+    "static/js/453.96453769.chunk.js": "/Portfolio/static/js/453.96453769.chunk.js",
+    "static/media/pixel-char.png": "/Portfolio/static/media/pixel-char.261d8f99184a950bdbd5.png",
+    "static/media/web.jpg": "/Portfolio/static/media/web.ed3177e5e65a84396c1a.jpg",
+    "static/media/translation.png": "/Portfolio/static/media/translation.2ff1d0c90d61b91f8bac.png",
+    "static/media/PROFILE.jpg": "/Portfolio/static/media/PROFILE.18ae22f83ae85bcf9fd5.jpg",
+    "static/media/ai-study.jpg": "/Portfolio/static/media/ai-study.c4c8b1230ca09a66885c.jpg",
+    "static/media/Vidhisha_Resume.pdf": "/Portfolio/static/media/Vidhisha_Resume.40e668cb90729f4e62b4.pdf",
+    "static/media/ai-interview.jpg": "/Portfolio/static/media/ai-interview.a042907005321c2a1d94.jpg",
+    "index.html": "/Portfolio/index.html",
+    "main.0a0f87c1.css.map": "/Portfolio/static/css/main.0a0f87c1.css.map",
+    "main.0469aa08.js.map": "/Portfolio/static/js/main.0469aa08.js.map",
+    "453.96453769.chunk.js.map": "/Portfolio/static/js/453.96453769.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0a0f87c1.css",
+    "static/js/main.0469aa08.js"
+  ]
+}
