@@ -23,7 +23,7 @@ const Projects = () => {
       title: "Ecstasy Ventures Startup Website & Dashboard",
       desc: "Developed the complete startup company website and an administrative dashboard. Technologies include a modern full-stack setup for a dynamic user experience.",
       tech: ["React Native", "Node.js", "MongoDB", "Express"],
-      link: "https://github.com/EcstasyVentures/EcstasyVentures",
+      // Removed: link: "https://github.com/EcstasyVentures/EcstasyVentures",
       website: "https://ecstasyventures.com/",
       img: ecstasyVenturesImg
     },
@@ -31,7 +31,7 @@ const Projects = () => {
       title: "VTA5 (Virtual Trading Arena 5) Launch Page",
       desc: "Designed and developed the launching page for VTA5, a virtual trading arena. Built with a focus on responsiveness and performance, deployed on Google Cloud Platform.",
       tech: ["React Native", "Node.js", "Firebase", "GCP"],
-      link: "https://github.com/veeuu/VTA5",
+      // Removed: link: "https://github.com/veeuu/VTA5",
       website: "https://vta5.com",
       img: vta5Img
     },
@@ -40,8 +40,8 @@ const Projects = () => {
       title: "AI-Interview-Tool",
       desc: "A comprehensive AI-powered interview tool providing preparation and real-time feedback for theoretical, coding, and behavioral questions to help users crack any interview.",
       tech: ["React Native", "Electron", "Google Gemini 2.5", "OpenAI", "RAG", "LLM", "Python","FastAPI","Node.js"],
-      link: "https://github.com/veeuu/AI-Interview-Tool",
-      img: freelanceAiToolImg // Using the new, distinct image variable
+      // Removed the link property entirely for this project
+      img: freelanceAiToolImg
     }
   ];
 
@@ -105,12 +105,23 @@ const Projects = () => {
             </div>
           </div>
           <div className="project-footer">
-            <a className="btn btn-outline" href={p.link} target="_blank" rel="noreferrer">
-              View Git Repo
-            </a>
+            {/* Conditional rendering for Git Repo link */}
+            {p.link && (
+              <a className="btn btn-outline" href={p.link} target="_blank" rel="noreferrer">
+                View Git Repo
+              </a>
+            )}
+            
             {/* Conditional rendering for website link */}
             {p.website && (
-              <a className="btn btn-secondary" href={p.website} target="_blank" rel="noreferrer" style={{ marginLeft: '10px' }}>
+              <a 
+                className="btn btn-secondary" 
+                href={p.website} 
+                target="_blank" 
+                rel="noreferrer" 
+                // Style adjustment to move the website button left if there's no Git button
+                style={{ marginLeft: p.link ? '10px' : '0' }}
+              >
                 View Website
               </a>
             )}
