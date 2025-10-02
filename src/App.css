@@ -38,10 +38,8 @@ section {
   font-weight: 700;
   color: #17494d;
   letter-spacing: -0.2px;
-  margin-left: 20px; /* Added this to move brand slightly right */
+  margin-left: 20px; 
 }
-
-/* Remove the nav-links styles completely or leave them if you plan to add links later */
 
 .nav-links a {
   margin-left: 22px;

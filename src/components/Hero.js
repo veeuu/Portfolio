@@ -1,5 +1,8 @@
 import React from "react";
+// Import Fa icons as before
 import { FaLinkedin, FaGithub, FaEnvelope, FaInstagram } from "react-icons/fa";
+// Import the Fiverr icon from the Simple Icons set
+import { SiFiverr } from "react-icons/si"; 
 import "../App.css";
 
 import profile from "../assets/PROFILE.jpg";
@@ -31,6 +34,7 @@ const Hero = () => {
 
           {/* Social Links */}
           <div className="hero-socials">
+            {/* LinkedIn */}
             <a
               href="https://www.linkedin.com/in/vidhisha-kamble-435b73213"
               target="_blank"
@@ -38,14 +42,21 @@ const Hero = () => {
             >
               <FaLinkedin />
             </a>
+            {/* GitHub */}
             <a href="https://github.com/veeuu" target="_blank" rel="noreferrer">
               <FaGithub />
             </a>
+            {/* Email */}
             <a href="mailto:veeekamble@gmail.com">
               <FaEnvelope />
             </a>
+            {/* Instagram */}
             <a href="https://www.instagram.com/veeeuu/" target="_blank" rel="noreferrer">
               <FaInstagram />
+            </a>
+            {/* Fiverr - Now using SiFiverr */}
+            <a href="https://www.fiverr.com/sellers/vidhisha24" target="_blank" rel="noreferrer">
+              <SiFiverr />
             </a>
           </div>
 
