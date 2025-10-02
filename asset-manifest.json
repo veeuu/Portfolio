@@ -1,22 +1,25 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.c6b7ddd5.css",
-    "main.js": "/Portfolio/static/js/main.61833890.js",
+    "main.js": "/Portfolio/static/js/main.0db92e67.js",
     "static/js/453.96453769.chunk.js": "/Portfolio/static/js/453.96453769.chunk.js",
     "static/media/pixel-char.png": "/Portfolio/static/media/pixel-char.261d8f99184a950bdbd5.png",
     "static/media/web.jpg": "/Portfolio/static/media/web.ed3177e5e65a84396c1a.jpg",
+    "static/media/ai-tool.jpg": "/Portfolio/static/media/ai-tool.710c0168423c35c19dff.jpg",
     "static/media/translation.png": "/Portfolio/static/media/translation.2ff1d0c90d61b91f8bac.png",
     "static/media/PROFILE.jpg": "/Portfolio/static/media/PROFILE.18ae22f83ae85bcf9fd5.jpg",
     "static/media/ai-study.jpg": "/Portfolio/static/media/ai-study.c4c8b1230ca09a66885c.jpg",
     "static/media/Vidhisha_Resume.pdf": "/Portfolio/static/media/Vidhisha_Resume.40e668cb90729f4e62b4.pdf",
+    "static/media/vta5.jpg": "/Portfolio/static/media/vta5.ef9e9f335c7dda77ff34.jpg",
     "static/media/ai-interview.jpg": "/Portfolio/static/media/ai-interview.a042907005321c2a1d94.jpg",
+    "static/media/ecstasy-ventures.jpg": "/Portfolio/static/media/ecstasy-ventures.fd6c6f7e07f78dc7b7d9.jpg",
     "index.html": "/Portfolio/index.html",
     "main.c6b7ddd5.css.map": "/Portfolio/static/css/main.c6b7ddd5.css.map",
-    "main.61833890.js.map": "/Portfolio/static/js/main.61833890.js.map",
+    "main.0db92e67.js.map": "/Portfolio/static/js/main.0db92e67.js.map",
     "453.96453769.chunk.js.map": "/Portfolio/static/js/453.96453769.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c6b7ddd5.css",
-    "static/js/main.61833890.js"
+    "static/js/main.0db92e67.js"
   ]
 }
