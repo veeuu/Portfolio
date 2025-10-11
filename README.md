@@ -1,15 +1,19 @@
-# Vidhisha Kamble Portfolio
+# Vidhisha Kamble Portfolio ✨
 
-This is a personal portfolio website for **Vidhisha Rajani Kamble**, built with [React](https://react.dev/) and styled with custom CSS and [Tailwind CSS](https://tailwindcss.com/). The site showcases skills, projects, and contact information.
+A modern, Gen Z-style personal portfolio website for **Vidhisha Rajani Kamble**, built with [React](https://react.dev/) and featuring cutting-edge design elements. This portfolio showcases skills, projects, and contact information with a focus on user experience and visual appeal.
 
-## Features
+## 🚀 Features
 
-- **Responsive Design**: Works on desktop and mobile devices.
-- **About Section**: Brief introduction and background.
-- **Skills Section**: Categorized technical skills.
-- **Projects Section**: Highlights major projects with links to GitHub repositories.
-- **Contact & Social Links**: LinkedIn, GitHub, Email, and Instagram.
-- **Downloadable Resume**: Quick access to resume PDF.
+- **🌓 Dark/Light Theme Toggle**: Seamless theme switching with system preference detection
+- **📱 Fully Responsive Design**: Optimized for all devices and screen sizes
+- **✨ Modern Glassmorphism UI**: Beautiful glass-like effects and backdrop blur
+- **🎨 Gradient Animations**: Dynamic color transitions and hover effects
+- **⚡ Smooth Animations**: Floating elements, typing effects, and micro-interactions
+- **🎯 Interactive Elements**: Hover states, button animations, and visual feedback
+- **📊 Personal Stats**: Dynamic counters and achievement highlights
+- **🔗 Social Integration**: Direct links to all professional platforms
+- **📄 Resume Access**: One-click resume download functionality
+- **♿ Accessibility**: WCAG compliant with focus states and reduced motion support
 
 ## Folder Structure
 

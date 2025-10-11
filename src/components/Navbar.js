@@ -1,8 +1,10 @@
 import React, { useState, useEffect } from "react";
+import { FaSun, FaMoon, FaCode } from "react-icons/fa";
 import "../App.css";
 
-const Navbar = () => {
+const Navbar = ({ darkMode, toggleTheme }) => {
   const [scrolled, setScrolled] = useState(false);
+  
   useEffect(() => {
     const onScroll = () => setScrolled(window.scrollY > 20);
     window.addEventListener("scroll", onScroll);
@@ -12,8 +14,20 @@ const Navbar = () => {
   return (
     <header className={`nav-wrap ${scrolled ? "nav-shadow" : ""}`}>
       <div className="container nav-inner">
-        <div className="brand">Vidhisha Rajani Kamble (Portfolio)</div>
-        {/* Removed nav-links */}
+        <div className="brand">
+          <FaCode className="brand-icon" />
+          <span className="brand-text">vidhisha.dev</span>
+        </div>
+        
+        <div className="nav-actions">
+          <button 
+            className="theme-toggle"
+            onClick={toggleTheme}
+            aria-label="Toggle theme"
+          >
+            {darkMode ? <FaSun /> : <FaMoon />}
+          </button>
+        </div>
       </div>
     </header>
   );

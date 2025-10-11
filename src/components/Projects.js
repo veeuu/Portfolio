@@ -1,4 +1,5 @@
 import React from "react";
+import { FaGithub, FaExternalLinkAlt } from "react-icons/fa";
 import "../App.css";
 
 // Import images from assets
@@ -108,21 +109,22 @@ const Projects = () => {
             {/* Conditional rendering for Git Repo link */}
             {p.link && (
               <a className="btn btn-outline" href={p.link} target="_blank" rel="noreferrer">
-                View Git Repo
+                <FaGithub />
+                View Code
               </a>
             )}
             
             {/* Conditional rendering for website link */}
             {p.website && (
               <a 
-                className="btn btn-secondary" 
+                className="btn btn-outline" 
                 href={p.website} 
                 target="_blank" 
                 rel="noreferrer" 
-                // Style adjustment to move the website button left if there's no Git button
                 style={{ marginLeft: p.link ? '10px' : '0' }}
               >
-                View Website
+                <FaExternalLinkAlt />
+                Live Demo
               </a>
             )}
           </div>

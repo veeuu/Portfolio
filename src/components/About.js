@@ -1,11 +1,12 @@
 import React from "react";
+import { FaHeart, FaCode, FaGamepad, FaDance } from "react-icons/fa";
 import "../App.css";
 
 const About = () => {
   return (
     <section id="about" className="about">
       <div className="container">
-        <h2 className="section-title">About</h2>
+        <h2 className="section-title">About Me</h2>
         <p className="about-text">
           Hey there! I’m <strong>Vidhisha Kamble</strong>, a tech enthusiast who loves transforming ideas into impactful
           digital experiences. My work blends logical precision with creative problem-solving, and I’m constantly
