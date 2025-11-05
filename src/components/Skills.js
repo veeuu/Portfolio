@@ -114,7 +114,7 @@ const Skills = () => {
                   <span className="stat-label">Categories</span>
                 </div>
                 <div className="stat-item">
-                  <span className="stat-number">1+</span>
+                  <span className="stat-number">1</span>
                   <span className="stat-label">Years</span>
                 </div>
                 <div className="stat-item">

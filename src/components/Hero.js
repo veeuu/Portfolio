@@ -4,7 +4,7 @@ import { SiFiverr } from "react-icons/si";
 import "../App.css";
 
 import profile from "../assets/PROFILE.jpg";
-import resume from "../assets/Vidhisha_Resume.pdf";
+import resume from "../assets/Vidhisha_Resume(new).pdf";
 
 const Hero = () => {
   const [typedText, setTypedText] = useState("");
