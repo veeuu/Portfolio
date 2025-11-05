@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.ce89f371.css",
-    "main.js": "/Portfolio/static/js/main.439ef887.js",
+    "main.css": "/Portfolio/static/css/main.e5fe48ce.css",
+    "main.js": "/Portfolio/static/js/main.8c61dfe4.js",
     "static/js/453.96453769.chunk.js": "/Portfolio/static/js/453.96453769.chunk.js",
     "static/media/pixel-char.png": "/Portfolio/static/media/pixel-char.261d8f99184a950bdbd5.png",
     "static/media/web.jpg": "/Portfolio/static/media/web.ed3177e5e65a84396c1a.jpg",
@@ -12,14 +12,15 @@
     "static/media/Vidhisha_Resume.pdf": "/Portfolio/static/media/Vidhisha_Resume.40e668cb90729f4e62b4.pdf",
     "static/media/vta5.jpg": "/Portfolio/static/media/vta5.ef9e9f335c7dda77ff34.jpg",
     "static/media/ai-interview.jpg": "/Portfolio/static/media/ai-interview.a042907005321c2a1d94.jpg",
+    "static/media/GymApp.webp": "/Portfolio/static/media/GymApp.053ee9b4fe65a253df17.webp",
     "static/media/ecstasy-ventures.jpg": "/Portfolio/static/media/ecstasy-ventures.fd6c6f7e07f78dc7b7d9.jpg",
     "index.html": "/Portfolio/index.html",
-    "main.ce89f371.css.map": "/Portfolio/static/css/main.ce89f371.css.map",
-    "main.439ef887.js.map": "/Portfolio/static/js/main.439ef887.js.map",
+    "main.e5fe48ce.css.map": "/Portfolio/static/css/main.e5fe48ce.css.map",
+    "main.8c61dfe4.js.map": "/Portfolio/static/js/main.8c61dfe4.js.map",
     "453.96453769.chunk.js.map": "/Portfolio/static/js/453.96453769.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ce89f371.css",
-    "static/js/main.439ef887.js"
+    "static/css/main.e5fe48ce.css",
+    "static/js/main.8c61dfe4.js"
   ]
 }
