@@ -138,6 +138,7 @@ section {
   max-width: 1200px;
   margin: 0 auto;
   width: 100%;
+  transition: padding 0.3s ease;
 }
 
 .brand {
@@ -1304,10 +1305,17 @@ section {
   }
 }
 
+/* Large screens optimization */
+@media (min-width: 1400px) {
+  .nav-inner {
+    padding: 18px 40px;
+  }
+}
+
 /* Tablet and Mobile Responsive */
 @media (max-width: 1024px) {
   .nav-inner {
-    padding: 14px 0;
+    padding: 14px 18px;
   }
   
   .brand {
