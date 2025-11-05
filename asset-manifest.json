@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.e5fe48ce.css",
-    "main.js": "/Portfolio/static/js/main.ba4f7086.js",
+    "main.css": "/Portfolio/static/css/main.33a08a76.css",
+    "main.js": "/Portfolio/static/js/main.46c0e3c2.js",
     "static/js/453.96453769.chunk.js": "/Portfolio/static/js/453.96453769.chunk.js",
     "static/media/pixel-char.png": "/Portfolio/static/media/pixel-char.261d8f99184a950bdbd5.png",
     "static/media/web.jpg": "/Portfolio/static/media/web.ed3177e5e65a84396c1a.jpg",
@@ -15,12 +15,12 @@
     "static/media/GymApp.webp": "/Portfolio/static/media/GymApp.053ee9b4fe65a253df17.webp",
     "static/media/ecstasy-ventures.jpg": "/Portfolio/static/media/ecstasy-ventures.fd6c6f7e07f78dc7b7d9.jpg",
     "index.html": "/Portfolio/index.html",
-    "main.e5fe48ce.css.map": "/Portfolio/static/css/main.e5fe48ce.css.map",
-    "main.ba4f7086.js.map": "/Portfolio/static/js/main.ba4f7086.js.map",
+    "main.33a08a76.css.map": "/Portfolio/static/css/main.33a08a76.css.map",
+    "main.46c0e3c2.js.map": "/Portfolio/static/js/main.46c0e3c2.js.map",
     "453.96453769.chunk.js.map": "/Portfolio/static/js/453.96453769.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e5fe48ce.css",
-    "static/js/main.ba4f7086.js"
+    "static/css/main.33a08a76.css",
+    "static/js/main.46c0e3c2.js"
   ]
 }
