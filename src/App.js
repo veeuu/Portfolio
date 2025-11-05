@@ -15,7 +15,8 @@ function App() {
     if (savedTheme) {
       setDarkMode(savedTheme === 'dark');
     } else {
-      setDarkMode(window.matchMedia('(prefers-color-scheme: dark)').matches);
+      // Default to light mode instead of system preference
+      setDarkMode(false);
     }
   }, []);
 
