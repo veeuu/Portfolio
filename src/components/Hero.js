@@ -8,7 +8,7 @@ import resume from "../assets/Vidhisha_Resume.pdf";
 
 const Hero = () => {
   const [typedText, setTypedText] = useState("");
-  const roles = ["AI Intern 🤖", "Freelancer 💼", "Code Enthusiast 💻", "Problem Solver 🧩"];
+  const roles = ["AI Developer", "Full-Stack Engineer", "Freelancer", "Problem Solver", "Tech Enthusiast"];
   const [currentRoleIndex, setCurrentRoleIndex] = useState(0);
 
   useEffect(() => {
@@ -33,9 +33,7 @@ const Hero = () => {
   return (
     <section id="hero" className="hero">
       <div className="hero-bg-elements">
-        <div className="floating-element element-1"></div>
-        <div className="floating-element element-2"></div>
-        <div className="floating-element element-3"></div>
+        <div className="geometric-shape"></div>
       </div>
       
       <div className="container hero-inner">
@@ -43,18 +41,16 @@ const Hero = () => {
           
           {/* Profile Picture */}
           <div className="profile-wrap">
-            <div className="profile-ring"></div>
             {profile ? (
               <img src={profile} alt="Vidhisha" className="profile-pic" />
             ) : (
               <div className="avatar-fallback">VK</div>
             )}
-            <div className="status-indicator"></div>
           </div>
 
           {/* Name & Role */}
           <h1 className="hero-title">
-            Hey, I'm <span className="gradient-text">Vidhisha</span> 👋
+            Hi, I'm <span className="gradient-text">Vidhisha</span>
           </h1>
           
           <div className="hero-role-container">
@@ -64,23 +60,27 @@ const Hero = () => {
           </div>
           
           <p className="hero-description">
-            Turning ideas into reality through code ✨ Currently innovating at ProPlus Data 
-            and helping clients worldwide bring their digital dreams to life.
+            Building innovative AI solutions and full-stack applications. Currently working at ProPlus Data 
+            while creating impactful projects for clients worldwide.
           </p>
 
           {/* Stats */}
           <div className="hero-stats">
             <div className="stat-item">
-              <span className="stat-number">5+</span>
+              <span className="stat-number">8+</span>
               <span className="stat-label">Projects</span>
             </div>
             <div className="stat-item">
               <span className="stat-number">1</span>
-              <span className="stat-label">Year</span>
+              <span className="stat-label">Years Experience</span>
             </div>
             <div className="stat-item">
-              <span className="stat-number">∞</span>
-              <span className="stat-label">Coffee</span>
+              <span className="stat-number">5+</span>
+              <span className="stat-label">Technologies</span>
+            </div>
+            <div className="stat-item">
+              <span className="stat-number">100%</span>
+              <span className="stat-label">Dedication</span>
             </div>
           </div>
 
@@ -111,7 +111,7 @@ const Hero = () => {
             </a>
             <a className="btn btn-secondary" href="#projects">
               <FaRocket />
-              View My Work
+              View Projects
             </a>
           </div>
 

@@ -4,32 +4,86 @@ import { SiFiverr } from "react-icons/si";
 import "../App.css";
 
 const Footer = () => {
+  const currentYear = new Date().getFullYear();
+  
   return (
     <footer className="footer">
-      <div className="container footer-inner">
-        <div className="footer-socials">
-          <a href="https://www.linkedin.com/in/vidhisha-kamble-435b73213" target="_blank" rel="noreferrer">
-            <FaLinkedin />
-          </a>
-          <a href="https://github.com/veeuu" target="_blank" rel="noreferrer">
-            <FaGithub />
-          </a>
-          <a href="mailto:veeekamble@gmail.com">
-            <FaEnvelope />
-          </a>
-          <a href="https://www.instagram.com/veeeuu/" target="_blank" rel="noreferrer">
-            <FaInstagram />
-          </a>
-          <a href="https://www.fiverr.com/sellers/vidhisha24" target="_blank" rel="noreferrer">
-            <SiFiverr />
-          </a>
+      <div className="container">
+        <div className="footer-content">
+          <div className="footer-main">
+            <h3 className="footer-title">Let's Connect</h3>
+            <p className="footer-description">
+              I'm always open to discussing new opportunities, 
+              collaborations, or just having a chat about technology.
+            </p>
+            
+            <div className="footer-socials">
+              <a 
+                href="https://www.linkedin.com/in/vidhisha-kamble-435b73213" 
+                target="_blank" 
+                rel="noreferrer" 
+                className="social-link"
+                aria-label="LinkedIn"
+              >
+                <FaLinkedin />
+              </a>
+              <a 
+                href="https://github.com/veeuu" 
+                target="_blank" 
+                rel="noreferrer" 
+                className="social-link"
+                aria-label="GitHub"
+              >
+                <FaGithub />
+              </a>
+              <a 
+                href="mailto:veeekamble@gmail.com" 
+                className="social-link"
+                aria-label="Email"
+              >
+                <FaEnvelope />
+              </a>
+              <a 
+                href="https://www.instagram.com/veeeuu/" 
+                target="_blank" 
+                rel="noreferrer" 
+                className="social-link"
+                aria-label="Instagram"
+              >
+                <FaInstagram />
+              </a>
+              <a 
+                href="https://www.fiverr.com/sellers/vidhisha24" 
+                target="_blank" 
+                rel="noreferrer" 
+                className="social-link"
+                aria-label="Fiverr"
+              >
+                <SiFiverr />
+              </a>
+            </div>
+          </div>
+          
+          <div className="footer-info">
+            <div className="footer-status">
+              <div className="status-indicator">
+                <span className="status-dot"></span>
+                <span>Available for freelance work</span>
+              </div>
+            </div>
+            
+            <div className="footer-location">
+              <p>Based in India</p>
+              <p>Working globally</p>
+            </div>
+          </div>
         </div>
-        <p>
-          Made with <FaHeart style={{ color: '#ec4899', margin: '0 4px' }} /> by Vidhisha Kamble
-        </p>
-        <p style={{ fontSize: '0.9rem', marginTop: '10px', opacity: 0.7 }}>
-          © 2025 All rights reserved.
-        </p>
+        
+        <div className="footer-bottom">
+          <p className="footer-copyright">
+            © {currentYear} Vidhisha Kamble. Made with <FaHeart className="heart-icon" /> 
+          </p>
+        </div>
       </div>
     </footer>
   );

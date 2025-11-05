@@ -17,6 +17,7 @@ const Navbar = ({ darkMode, toggleTheme }) => {
         <div className="brand">
           <FaCode className="brand-icon" />
           <span className="brand-text">vidhisha.dev</span>
+          <span className="brand-status">✨ online</span>
         </div>
         
         <div className="nav-actions">

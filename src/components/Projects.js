@@ -7,6 +7,7 @@ import pixelChar from "../assets/pixel-char.png";
 import aiStudy from "../assets/ai-study.jpg";
 import translation from "../assets/translation.png";
 import webImg from "../assets/web.jpg";
+import gymAppImg from "../assets/GymApp.webp";
 
 // **Updated Image Imports**
 import ecstasyVenturesImg from "../assets/ecstasy-ventures.jpg"; // Placeholder for EcstasyVentures image
@@ -50,6 +51,13 @@ const Projects = () => {
   // PERSONAL PROJECTS
   // -----------------------------------------------------------------
   const personalProjects = [
+    {
+      title: "Flutter Gym Management System",
+      desc: "A Flutter-based fitness management system for gym trainers, featuring secure authentication, client management, and an intuitive Material Design dashboard powered by Provider state management.",
+      tech: ["Flutter", "Dart", "Provider", "SharedPreferences", "Material Design", "Image Picker"],
+      link: "https://github.com/veeuu/GymApp",
+      img: gymAppImg
+    },
     {
       // Re-added the original personal project
       title: "VocalEdge : Your Personal Interview Trainer",
@@ -136,19 +144,22 @@ const Projects = () => {
   return (
     <section id="projects" className="projects">
       <div className="container">
-        <h2 className="section-title">Projects</h2>
+        <div className="projects-header">
+          <h2 className="section-title">Featured Projects</h2>
+          <p className="section-description">
+            A showcase of my recent work in AI development, full-stack applications, and client projects
+          </p>
+        </div>
 
-        {/* -------------------------------------------------- */}
-        {/* FREELANCING SECTION */}
-        {/* -------------------------------------------------- */}
-        <h3 className="section-subtitle">Freelancing Projects</h3>
-        {renderProjects(freelanceProjects)}
+        <div className="projects-section">
+          <h3 className="projects-category-title">Client Projects</h3>
+          {renderProjects(freelanceProjects)}
+        </div>
 
-        {/* -------------------------------------------------- */}
-        {/* PERSONAL PROJECTS SECTION */}
-        {/* -------------------------------------------------- */}
-        <h3 className="section-subtitle" style={{ marginTop: '40px' }}>Personal Projects</h3>
-        {renderProjects(personalProjects)}
+        <div className="projects-section">
+          <h3 className="projects-category-title">Personal Projects</h3>
+          {renderProjects(personalProjects)}
+        </div>
 
       </div>
     </section>
