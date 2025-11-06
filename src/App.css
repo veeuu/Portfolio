@@ -1,33 +1,5 @@
-/* Modern Gen Z Color Palette */
+/* Modern Light Theme Color Palette */
 :root {
-  /* Dark Theme - Clean & Modern */
-  --bg-primary: #0d1117;
-  --bg-secondary: #161b22;
-  --bg-tertiary: #21262d;
-  --bg-card: #30363d;
-  --text-primary: #f0f6fc;
-  --text-secondary: #8b949e;
-  --text-muted: #6e7681;
-  --accent-primary: #58a6ff;
-  --accent-secondary: #f85149;
-  --accent-tertiary: #a5f3fc;
-  --accent-quaternary: #7c3aed;
-  --accent-success: #3fb950;
-  --accent-warning: #d29922;
-  --accent-pink: #f778ba;
-  --border-color: #30363d;
-  --border-muted: #21262d;
-  --shadow-light: rgba(0, 0, 0, 0.12);
-  --shadow-medium: rgba(0, 0, 0, 0.16);
-  --shadow-heavy: rgba(0, 0, 0, 0.24);
-  --glass-bg: rgba(48, 54, 61, 0.8);
-  --glass-border: rgba(240, 246, 252, 0.1);
-  --gradient-primary: linear-gradient(135deg, #58a6ff, #f778ba);
-  --gradient-secondary: linear-gradient(135deg, #7c3aed, #3fb950);
-  --gradient-accent: linear-gradient(135deg, #f85149, #d29922);
-}
-
-[data-theme="light"] {
   /* Light Theme - Clean & Minimal */
   --bg-primary: #ffffff;
   --bg-secondary: #f6f8fa;
@@ -180,55 +152,7 @@ section {
   white-space: nowrap;
 }
 
-.nav-actions {
-  display: flex;
-  align-items: center;
-  gap: 20px;
-}
 
-.theme-toggle {
-  background: var(--glass-bg);
-  border: 2px solid var(--border-color);
-  border-radius: 50%;
-  width: clamp(40px, 8vw, 50px);
-  height: clamp(40px, 8vw, 50px);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: var(--text-primary);
-  cursor: pointer;
-  transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
-  backdrop-filter: blur(15px);
-  position: relative;
-  overflow: hidden;
-  flex-shrink: 0;
-  font-size: clamp(0.9rem, 2vw, 1rem);
-}
-
-.theme-toggle::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background: var(--gradient-primary);
-  opacity: 0;
-  transition: opacity 0.3s ease;
-  border-radius: 50%;
-  z-index: -1;
-}
-
-.theme-toggle:hover::before {
-  opacity: 1;
-}
-
-.theme-toggle:hover {
-  transform: scale(1.15) rotate(15deg);
-  color: white;
-  border-color: transparent;
-  box-shadow: 0 10px 30px rgba(255, 107, 107, 0.4);
-}
 
 @keyframes codeFloat {
   0%, 100% { 
@@ -1342,11 +1266,7 @@ section {
     display: none;
   }
   
-  .theme-toggle {
-    width: 42px;
-    height: 42px;
-    font-size: 0.9rem;
-  }
+
   
   /* Hero Section */
   .hero {
@@ -1507,11 +1427,7 @@ section {
     font-size: 1.1rem;
   }
   
-  .theme-toggle {
-    width: 36px;
-    height: 36px;
-    font-size: 0.85rem;
-  }
+
   
   /* Hero Section */
   .hero {
@@ -1538,11 +1454,7 @@ section {
     font-size: 0.85rem;
   }
   
-  .theme-toggle {
-    width: 32px;
-    height: 32px;
-    font-size: 0.8rem;
-  }
+
   
   .hero-card {
     padding: 24px 16px;
@@ -1909,18 +1821,7 @@ a:focus {
   }
 }
 
-/* Dark mode specific adjustments */
-[data-theme="dark"] .project-card:hover {
-  box-shadow: 0 25px 50px rgba(0, 0, 0, 0.6);
-}
 
-[data-theme="dark"] .skill-block:hover {
-  box-shadow: 0 25px 50px rgba(0, 0, 0, 0.5);
-}
-
-[data-theme="dark"] .hero-card {
-  box-shadow: 0 25px 50px rgba(0, 0, 0, 0.7);
-}
 
 /* Accessibility improvements */
 @media (prefers-reduced-motion: reduce) {
@@ -1936,7 +1837,6 @@ a:focus {
 /* Print styles */
 @media print {
   .nav-wrap,
-  .theme-toggle,
   .floating-element {
     display: none !important;
   }
@@ -2157,20 +2057,19 @@ n Z Extra Animations & Effects */
 /* High contrast mode */
 @media (prefers-contrast: high) {
   :root {
-    --bg-primary: #000000;
-    --bg-secondary: #111111;
-    --text-primary: #ffffff;
-    --text-secondary: #cccccc;
-    --accent-primary: #00ff00;
-    --accent-secondary: #0099ff;
-    --accent-tertiary: #ff0099;
+    --bg-primary: #ffffff;
+    --bg-secondary: #f0f0f0;
+    --text-primary: #000000;
+    --text-secondary: #333333;
+    --accent-primary: #0066cc;
+    --accent-secondary: #cc0000;
+    --accent-tertiary: #6600cc;
   }
 }
 
 /* Print styles */
 @media print {
   .nav-wrap,
-  .theme-toggle,
   .floating-element,
   .particles,
   .matrix-rain {
@@ -2522,8 +2421,7 @@ ro Section */
 /* Improved Touch Targets for Mobile */
 @media (max-width: 768px) {
   .social-link,
-  .btn,
-  .theme-toggle {
+  .btn {
     min-height: 44px;
     min-width: 44px;
   }

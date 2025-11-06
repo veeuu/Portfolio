@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from "react";
-import { FaSun, FaMoon, FaCode } from "react-icons/fa";
+import { FaCode } from "react-icons/fa";
 import "../App.css";
 
-const Navbar = ({ darkMode, toggleTheme }) => {
+const Navbar = () => {
   const [scrolled, setScrolled] = useState(false);
   
   useEffect(() => {
@@ -18,16 +18,6 @@ const Navbar = ({ darkMode, toggleTheme }) => {
           <FaCode className="brand-icon" />
           <span className="brand-text">vidhisha.dev</span>
           <span className="brand-status">✨ online</span>
-        </div>
-        
-        <div className="nav-actions">
-          <button 
-            className="theme-toggle"
-            onClick={toggleTheme}
-            aria-label="Toggle theme"
-          >
-            {darkMode ? <FaSun /> : <FaMoon />}
-          </button>
         </div>
       </div>
     </header>

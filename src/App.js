@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useEffect } from "react";
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import About from "./components/About";
@@ -8,30 +8,16 @@ import Footer from "./components/Footer";
 import "./App.css";
 
 function App() {
-  const [darkMode, setDarkMode] = useState(false);
-
   useEffect(() => {
-    const savedTheme = localStorage.getItem('theme');
-    if (savedTheme) {
-      setDarkMode(savedTheme === 'dark');
-    } else {
-      // Default to light mode instead of system preference
-      setDarkMode(false);
-    }
+    // Set light theme permanently
+    document.documentElement.setAttribute('data-theme', 'light');
+    // Clean up any existing theme preference
+    localStorage.removeItem('theme');
   }, []);
-
-  useEffect(() => {
-    document.documentElement.setAttribute('data-theme', darkMode ? 'dark' : 'light');
-    localStorage.setItem('theme', darkMode ? 'dark' : 'light');
-  }, [darkMode]);
-
-  const toggleTheme = () => {
-    setDarkMode(!darkMode);
-  };
 
   return (
     <div className="App">
-      <Navbar darkMode={darkMode} toggleTheme={toggleTheme} />
+      <Navbar />
       <Hero />
       <About />
       <Skills />
