@@ -4,7 +4,7 @@ import { SiFiverr } from "react-icons/si";
 import "../App.css";
 
 import profile from "../assets/PROFILE.jpg";
-import resume from "../assets/Vidhisha_Resume(new).pdf";
+import resume from "../assets/VidhishaResume.pdf";
 
 const Hero = () => {
   const [typedText, setTypedText] = useState("");
@@ -60,27 +60,26 @@ const Hero = () => {
           </div>
           
           <p className="hero-description">
-            Building innovative AI solutions and full-stack applications. Currently working at ProPlus Data 
-            while creating impactful projects for clients worldwide.
+            AI Developer building scalable systems and AI-driven applications with a focus on performance, reliability, and clean architecture. Skilled in Python, REST APIs, and automation, delivering impactful solutions end-to-end.
           </p>
 
           {/* Stats */}
           <div className="hero-stats">
             <div className="stat-item">
-              <span className="stat-number">8+</span>
+              <span className="stat-number">11+</span>
               <span className="stat-label">Projects</span>
             </div>
             <div className="stat-item">
-              <span className="stat-number">1</span>
+              <span className="stat-number">1+</span>
               <span className="stat-label">Years Experience</span>
             </div>
             <div className="stat-item">
-              <span className="stat-number">5+</span>
+              <span className="stat-number">35+</span>
               <span className="stat-label">Technologies</span>
             </div>
             <div className="stat-item">
-              <span className="stat-number">100%</span>
-              <span className="stat-label">Dedication</span>
+              <span className="stat-number">4</span>
+              <span className="stat-label">Client Projects</span>
             </div>
           </div>
 

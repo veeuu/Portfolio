@@ -15,6 +15,8 @@ import vta5Img from "../assets/vta5.jpg"; // Placeholder for VTA5 image
 // Separating the two AI project images
 import freelanceAiToolImg from "../assets/ai-tool.jpg"; // New image for the Freelance AI Tool
 import vocalEdgeImg from "../assets/ai-interview.jpg"; // Original image for VocalEdge (Personal Project)
+import founderIntelligenceImg from "../assets/founder_intelligence.webp";
+import emailMarketingImg from "../assets/email_marketing.webp";
 
 const Projects = () => {
   // -----------------------------------------------------------------
@@ -44,6 +46,13 @@ const Projects = () => {
       tech: ["React Native", "Electron", "Google Gemini 2.5", "OpenAI", "RAG", "LLM", "Python","FastAPI","Node.js"],
       // Removed the link property entirely for this project
       img: freelanceAiToolImg
+    },
+    {
+      title: "Founder Intelligence System",
+      desc: "Multi-agent AI pipeline that transforms raw signals — transcripts, competitor data, app reviews, and Reddit threads — into structured product insights and founder-ready answers.",
+      tech: ["Python", "LangChain", "RAG", "OpenAI", "Multi-Agent", "FastAPI"],
+      link: "https://github.com/veeuu/Transcript-Agents",
+      img: founderIntelligenceImg
     }
   ];
 
@@ -93,6 +102,13 @@ const Projects = () => {
       tech: ["Python", "BeautifulSoup", "Pandas", "Excel", "Playwright", "Mistral AI", "Google Gemini", "Tesseract OCR"],
       link: "https://github.com/veeuu/Web-Scraping",
       img: webImg
+    },
+    {
+      title: "Email Marketing System",
+      desc: "Automated email marketing pipeline for sending personalized campaigns, managing subscriber lists, and tracking engagement metrics at scale.",
+      tech: ["Python", "Automation", "SMTP", "REST APIs"],
+      link: "https://github.com/veeuu/Email_Automation",
+      img: emailMarketingImg
     }
   ];
 

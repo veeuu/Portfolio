@@ -4,47 +4,71 @@ import "../App.css";
 
 const Skills = () => {
   const allSkills = [
-    // Programming Languages
-    { name: "Python", category: "Languages", icon: "🐍" },
-    { name: "JavaScript", category: "Languages", icon: "⚡" },
-    { name: "Java", category: "Languages", icon: "☕" },
-    { name: "C/C++", category: "Languages", icon: "⚙️" },
-    { name: "PHP", category: "Languages", icon: "🌐" },
-    { name: "SQL", category: "Languages", icon: "🗃️" },
-    
-    // Frameworks & Tools
-    { name: "React", category: "Frontend", icon: "⚛️" },
-    { name: "Node.js", category: "Backend", icon: "🟢" },
+    // Programming
+    { name: "Python", category: "Programming", icon: "🐍" },
+    { name: "JavaScript", category: "Programming", icon: "⚡" },
+    { name: "Java", category: "Programming", icon: "☕" },
+    { name: "C/C++", category: "Programming", icon: "⚙️" },
+    { name: "PHP", category: "Programming", icon: "🌐" },
+
+    // Backend
     { name: "Flask", category: "Backend", icon: "🌶️" },
     { name: "FastAPI", category: "Backend", icon: "🚀" },
-    { name: "Unity", category: "Game Dev", icon: "🎮" },
-    { name: "Bootstrap", category: "Frontend", icon: "🎨" },
-    
-    // Databases & Cloud
+    { name: "REST APIs", category: "Backend", icon: "🔌" },
+    { name: "Microservices", category: "Backend", icon: "🧩" },
+
+    // Frontend
+    { name: "HTML5", category: "Frontend", icon: "🌐" },
+    { name: "CSS3", category: "Frontend", icon: "🎨" },
+    { name: "JavaScript", category: "Frontend", icon: "⚡" },
+    { name: "React.js", category: "Frontend", icon: "⚛️" },
+
+    // Cloud
+    { name: "AWS EC2", category: "Cloud", icon: "☁️" },
+    { name: "AWS S3", category: "Cloud", icon: "🪣" },
+    { name: "AWS Lambda", category: "Cloud", icon: "λ" },
+    { name: "Cloud Deployment", category: "Cloud", icon: "🚀" },
+
+    // DevOps
+    { name: "Git", category: "DevOps", icon: "🌿" },
+    { name: "Docker", category: "DevOps", icon: "🐳" },
+    { name: "CI/CD", category: "DevOps", icon: "🔄" },
+
+    // AI/ML
+    { name: "LangChain", category: "AI/ML", icon: "🔗" },
+    { name: "RAG", category: "AI/ML", icon: "📚" },
+    { name: "Gemini", category: "AI/ML", icon: "✨" },
+    { name: "OpenAI", category: "AI/ML", icon: "🤖" },
+    { name: "OCR", category: "AI/ML", icon: "👁️" },
+    { name: "OpenCV", category: "AI/ML", icon: "📷" },
+
+    // Databases
+    { name: "MongoDB", category: "Database", icon: "🍃" },
     { name: "MySQL", category: "Database", icon: "🐬" },
     { name: "PostgreSQL", category: "Database", icon: "🐘" },
-    { name: "MongoDB", category: "Database", icon: "🍃" },
-    { name: "Firebase", category: "Cloud", icon: "🔥" },
-    { name: "GCP", category: "Cloud", icon: "☁️" },
-    
-    // AI & Specializations
-    { name: "Machine Learning", category: "AI/ML", icon: "🤖" },
-    { name: "LangChain", category: "AI/ML", icon: "🔗" },
-    { name: "RAG Systems", category: "AI/ML", icon: "📚" },
-    { name: "OCR Technology", category: "AI/ML", icon: "👁️" },
-    { name: "Web Scraping", category: "Tools", icon: "🕷️" },
-    { name: "API Development", category: "Backend", icon: "🔌" }
+    { name: "SQL", category: "Database", icon: "🗃️" },
+
+    // Automation
+    { name: "BeautifulSoup", category: "Automation", icon: "🕷️" },
+    { name: "Requests", category: "Automation", icon: "📡" },
+    { name: "Playwright", category: "Automation", icon: "🎭" },
+
+    // Core CS
+    { name: "Data Structures", category: "Core CS", icon: "🏗️" },
+    { name: "DBMS", category: "Core CS", icon: "🗄️" },
+    { name: "System Design", category: "Core CS", icon: "📐" },
   ];
 
   const categories = [
-    { name: "Languages", icon: <FaCode />, color: "var(--accent-primary)" },
-    { name: "Frontend", icon: <FaTools />, color: "var(--accent-secondary)" },
+    { name: "Programming", icon: <FaCode />, color: "var(--accent-primary)" },
     { name: "Backend", icon: <FaServer />, color: "var(--accent-tertiary)" },
-    { name: "Database", icon: <FaDatabase />, color: "var(--accent-quaternary)" },
+    { name: "Frontend", icon: <FaTools />, color: "var(--accent-secondary)" },
     { name: "Cloud", icon: <FaCloud />, color: "var(--accent-success)" },
+    { name: "DevOps", icon: <FaTools />, color: "var(--accent-pink)" },
     { name: "AI/ML", icon: <FaBrain />, color: "var(--accent-warning)" },
-    { name: "Tools", icon: <FaTools />, color: "var(--accent-pink)" },
-    { name: "Game Dev", icon: <FaTools />, color: "var(--text-secondary)" }
+    { name: "Database", icon: <FaDatabase />, color: "var(--accent-quaternary)" },
+    { name: "Automation", icon: <FaTools />, color: "var(--text-secondary)" },
+    { name: "Core CS", icon: <FaCode />, color: "var(--accent-primary)" },
   ];
 
   const getSkillsByCategory = (categoryName) => {

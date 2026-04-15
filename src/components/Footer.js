@@ -22,7 +22,7 @@ const Footer = () => {
                 href="https://www.linkedin.com/in/vidhisha-kamble-435b73213" 
                 target="_blank" 
                 rel="noreferrer" 
-                className="social-link"
+                className="social-link linkedin"
                 aria-label="LinkedIn"
               >
                 <FaLinkedin />
@@ -31,14 +31,14 @@ const Footer = () => {
                 href="https://github.com/veeuu" 
                 target="_blank" 
                 rel="noreferrer" 
-                className="social-link"
+                className="social-link github"
                 aria-label="GitHub"
               >
                 <FaGithub />
               </a>
               <a 
                 href="mailto:veeekamble@gmail.com" 
-                className="social-link"
+                className="social-link email"
                 aria-label="Email"
               >
                 <FaEnvelope />
@@ -47,7 +47,7 @@ const Footer = () => {
                 href="https://www.instagram.com/veeeuu/" 
                 target="_blank" 
                 rel="noreferrer" 
-                className="social-link"
+                className="social-link instagram"
                 aria-label="Instagram"
               >
                 <FaInstagram />
@@ -56,7 +56,7 @@ const Footer = () => {
                 href="https://www.fiverr.com/sellers/vidhisha24" 
                 target="_blank" 
                 rel="noreferrer" 
-                className="social-link"
+                className="social-link fiverr"
                 aria-label="Fiverr"
               >
                 <SiFiverr />
@@ -65,12 +65,12 @@ const Footer = () => {
           </div>
           
           <div className="footer-info">
-            <div className="footer-status">
+            {/* <div className="footer-status">
               <div className="status-indicator">
                 <span className="status-dot"></span>
                 <span>Available for freelance work</span>
               </div>
-            </div>
+            </div> */}
             
             <div className="footer-location">
               <p>Based in India</p>
