@@ -75,11 +75,6 @@ const Skills = () => {
     return allSkills.filter(skill => skill.category === categoryName);
   };
 
-  const getCategoryColor = (categoryName) => {
-    const category = categories.find(cat => cat.name === categoryName);
-    return category ? category.color : "var(--accent-primary)";
-  };
-
   return (
     <section id="skills" className="skills">
       <div className="container">

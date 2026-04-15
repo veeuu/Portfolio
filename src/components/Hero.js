@@ -6,9 +6,10 @@ import "../App.css";
 import profile from "../assets/PROFILE.jpg";
 import resume from "../assets/VidhishaResume.pdf";
 
+const roles = ["AI Developer", "Full-Stack Engineer", "Freelancer", "Problem Solver", "Tech Enthusiast"];
+
 const Hero = () => {
   const [typedText, setTypedText] = useState("");
-  const roles = ["AI Developer", "Full-Stack Engineer", "Freelancer", "Problem Solver", "Tech Enthusiast"];
   const [currentRoleIndex, setCurrentRoleIndex] = useState(0);
 
   useEffect(() => {
