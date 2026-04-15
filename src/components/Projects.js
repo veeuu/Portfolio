@@ -50,8 +50,7 @@ const Projects = () => {
     {
       title: "Founder Intelligence System",
       desc: "Multi-agent AI pipeline that transforms raw signals — transcripts, competitor data, app reviews, and Reddit threads — into structured product insights and founder-ready answers.",
-      tech: ["Python", "LangChain", "RAG", "OpenAI", "Multi-Agent", "FastAPI"],
-      link: "https://github.com/veeuu/Transcript-Agents",
+      tech: ["Python", "LangChain", "RAG", "OpenAI", "Multi-Agent", "FastAPI", "Apify", "Hugging Face", "Google Gemini", "Qwen", "Ollama"],
       img: founderIntelligenceImg
     }
   ];
