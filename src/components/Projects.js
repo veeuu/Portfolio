@@ -17,6 +17,7 @@ import freelanceAiToolImg from "../assets/ai-tool.jpg"; // New image for the Fre
 import vocalEdgeImg from "../assets/ai-interview.jpg"; // Original image for VocalEdge (Personal Project)
 import founderIntelligenceImg from "../assets/founder_intelligence.webp";
 import emailMarketingImg from "../assets/email_marketing.webp";
+import sqlDungeonImg from "../assets/image.png";
 
 const Projects = () => {
   // -----------------------------------------------------------------
@@ -60,40 +61,11 @@ const Projects = () => {
   // -----------------------------------------------------------------
   const personalProjects = [
     {
-      title: "Flutter Gym Management System",
-      desc: "A Flutter-based fitness management system for gym trainers, featuring secure authentication, client management, and an intuitive Material Design dashboard powered by Provider state management.",
-      tech: ["Flutter", "Dart", "Provider", "SharedPreferences", "Material Design", "Image Picker"],
-      link: "https://github.com/veeuu/GymApp",
-      img: gymAppImg
-    },
-    {
-      // Re-added the original personal project
-      title: "VocalEdge : Your Personal Interview Trainer",
-      desc: "AI-powered mock interview tool with TTS & STT, dynamic question generation and feedback scoring.",
-      tech: ["React", "PHP", "Google Gemini 2.5", "SQL", "CNN", "RAG", "LLM", "Langchain"],
-      link: "https://github.com/veeuu/AI-Interview-Assistant", // Note: This is the original repo link
-      img: vocalEdgeImg
-    },
-    {
-      title: "Pixel Art Platformer Game",
-      desc: "A 2D Mario-style game with custom characters, obstacles, and collectibles. Built with Unity and C.",
-      tech: ["GameMaker", "C", "Piskel", "Figma"],
-      link: "https://github.com/veeuu/2D-PixelGame-MarioStyle",
-      img: pixelChar
-    },
-    {
-      title: "AI Study Helper",
-      desc: "Generates quizzes and answers from uploaded study documents using RAG pipelines.",
-      tech: ["React", "Java", "RAG", "LLM", "Langchain", "Tesseract OCR"],
-      link: "https://github.com/veeuu/AI-Study-Helper",
-      img: aiStudy
-    },
-    {
-      title: "Translatron",
-      desc: "Multilingual text & document translation web app with PDF generation support.",
-      tech: ["React", "Python", "Flask", "MongoDB", "Google Translate", "Tesseract OCR"],
-      link: "https://github.com/veeuu/Translatron",
-      img: translation
+      title: "SQL Dungeon",
+      desc: "Turns learning SQL into a game. Progress through 15–100 levels of AI-generated SQL challenges, compete in real-time duo battles, and earn points mastering everything from basic SELECT queries to recursive CTEs.",
+      tech: ["SQL", "AI", "JavaScript", "React"],
+      website: "https://veeuu.github.io/SQL-Game/",
+      img: sqlDungeonImg
     },
     {
       title: "Web Scraping Automation",
@@ -108,6 +80,34 @@ const Projects = () => {
       tech: ["Python", "Automation", "SMTP", "REST APIs"],
       link: "https://github.com/veeuu/Email_Automation",
       img: emailMarketingImg
+    },
+    {
+      title: "Flutter Gym Management System",
+      desc: "A Flutter-based fitness management system for gym trainers, featuring secure authentication, client management, and an intuitive Material Design dashboard powered by Provider state management.",
+      tech: ["Flutter", "Dart", "Provider", "SharedPreferences", "Material Design", "Image Picker"],
+      link: "https://github.com/veeuu/GymApp",
+      img: gymAppImg
+    },
+    {
+      title: "VocalEdge : Your Personal Interview Trainer",
+      desc: "AI-powered mock interview tool with TTS & STT, dynamic question generation and feedback scoring.",
+      tech: ["React", "PHP", "Google Gemini 2.5", "SQL", "CNN", "RAG", "LLM", "Langchain"],
+      link: "https://github.com/veeuu/AI-Interview-Assistant",
+      img: vocalEdgeImg
+    },
+    {
+      title: "Pixel Art Platformer Game",
+      desc: "A 2D Mario-style game with custom characters, obstacles, and collectibles. Built with Unity and C.",
+      tech: ["GameMaker", "C", "Piskel", "Figma"],
+      link: "https://github.com/veeuu/2D-PixelGame-MarioStyle",
+      img: pixelChar
+    },
+    {
+      title: "Translatron",
+      desc: "Multilingual text & document translation web app with PDF generation support.",
+      tech: ["React", "Python", "Flask", "MongoDB", "Google Translate", "Tesseract OCR"],
+      link: "https://github.com/veeuu/Translatron",
+      img: translation
     }
   ];
 
