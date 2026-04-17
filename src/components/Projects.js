@@ -1,5 +1,5 @@
 import React from "react";
-import { FaGithub, FaExternalLinkAlt } from "react-icons/fa";
+import { FaGithub, FaExternalLinkAlt, FaDownload } from "react-icons/fa";
 import "../App.css";
 
 // Import images from assets
@@ -101,6 +101,7 @@ const Projects = () => {
       desc: "A Flutter-based fitness management system for gym trainers, featuring secure authentication, client management, and an intuitive Material Design dashboard powered by Provider state management.",
       tech: ["Flutter", "Dart", "Provider", "SharedPreferences", "Material Design", "Image Picker"],
       link: "https://github.com/veeuu/GymApp",
+      apk: "/app-release.apk",
       img: gymAppImg
     },
     {
@@ -156,6 +157,13 @@ const Projects = () => {
               >
                 <FaExternalLinkAlt />
                 Live Demo
+              </a>
+            )}
+            {/* Conditional rendering for APK download */}
+            {p.apk && (
+              <a className="btn btn-outline" href={p.apk} download>
+                <FaDownload />
+                Download APK
               </a>
             )}
           </div>
