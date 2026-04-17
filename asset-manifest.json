@@ -1,15 +1,16 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.63edb798.css",
-    "main.js": "/Portfolio/static/js/main.c3a4d5dd.js",
+    "main.css": "/Portfolio/static/css/main.e151e59b.css",
+    "main.js": "/Portfolio/static/js/main.d7ca2ae8.js",
     "static/js/453.96453769.chunk.js": "/Portfolio/static/js/453.96453769.chunk.js",
     "static/media/pixel-char.png": "/Portfolio/static/media/pixel-char.261d8f99184a950bdbd5.png",
     "static/media/web.jpg": "/Portfolio/static/media/web.ed3177e5e65a84396c1a.jpg",
     "static/media/ai-tool.jpg": "/Portfolio/static/media/ai-tool.710c0168423c35c19dff.jpg",
     "static/media/translation.png": "/Portfolio/static/media/translation.2ff1d0c90d61b91f8bac.png",
-    "static/media/image.png": "/Portfolio/static/media/image.8220c9f1cd5d567c3f76.png",
+    "static/media/image1.png": "/Portfolio/static/media/image1.8220c9f1cd5d567c3f76.png",
     "static/media/PROFILE.jpg": "/Portfolio/static/media/PROFILE.18ae22f83ae85bcf9fd5.jpg",
     "static/media/ai-study.jpg": "/Portfolio/static/media/ai-study.c4c8b1230ca09a66885c.jpg",
+    "static/media/image.png": "/Portfolio/static/media/image.30d85644dacb4fe3a701.png",
     "static/media/VidhishaResume.pdf": "/Portfolio/static/media/VidhishaResume.3c404714de2a15b383bd.pdf",
     "static/media/vta5.jpg": "/Portfolio/static/media/vta5.ef9e9f335c7dda77ff34.jpg",
     "static/media/ai-interview.jpg": "/Portfolio/static/media/ai-interview.a042907005321c2a1d94.jpg",
@@ -18,12 +19,12 @@
     "static/media/ecstasy-ventures.jpg": "/Portfolio/static/media/ecstasy-ventures.fd6c6f7e07f78dc7b7d9.jpg",
     "static/media/founder_intelligence.webp": "/Portfolio/static/media/founder_intelligence.75386776fefec9584bca.webp",
     "index.html": "/Portfolio/index.html",
-    "main.63edb798.css.map": "/Portfolio/static/css/main.63edb798.css.map",
-    "main.c3a4d5dd.js.map": "/Portfolio/static/js/main.c3a4d5dd.js.map",
+    "main.e151e59b.css.map": "/Portfolio/static/css/main.e151e59b.css.map",
+    "main.d7ca2ae8.js.map": "/Portfolio/static/js/main.d7ca2ae8.js.map",
     "453.96453769.chunk.js.map": "/Portfolio/static/js/453.96453769.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.63edb798.css",
-    "static/js/main.c3a4d5dd.js"
+    "static/css/main.e151e59b.css",
+    "static/js/main.d7ca2ae8.js"
   ]
 }
