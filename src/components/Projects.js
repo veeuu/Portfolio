@@ -17,7 +17,8 @@ import freelanceAiToolImg from "../assets/ai-tool.jpg"; // New image for the Fre
 import vocalEdgeImg from "../assets/ai-interview.jpg"; // Original image for VocalEdge (Personal Project)
 import founderIntelligenceImg from "../assets/founder_intelligence.webp";
 import emailMarketingImg from "../assets/email_marketing.webp";
-import sqlDungeonImg from "../assets/image.png";
+import sqlDungeonImg from "../assets/image1.png";
+import browserGamesImg from "../assets/image.png";
 
 const Projects = () => {
   // -----------------------------------------------------------------
@@ -68,6 +69,20 @@ const Projects = () => {
       img: sqlDungeonImg
     },
     {
+      title: "Translatron",
+      desc: "Multilingual text & document translation web app with PDF generation support.",
+      tech: ["React", "Python", "Flask", "MongoDB", "Google Translate", "Tesseract OCR"],
+      website: "https://veeuu.github.io/Translatron/",
+      img: translation
+    },
+    {
+      title: "Browser Games Collection",
+      desc: "A collection of interactive browser games built with vanilla HTML, CSS, and JavaScript — no frameworks, no dependencies. Features touch/swipe support and an auto-solver using the algorithm.",
+      tech: ["HTML", "CSS", "JavaScript", "GitHub Pages"],
+      website: "https://veeuu.github.io/Games/",
+      img: browserGamesImg
+    },
+    {
       title: "Web Scraping Automation",
       desc: "Automated data extraction pipeline for scraping and structuring large datasets.",
       tech: ["Python", "BeautifulSoup", "Pandas", "Excel", "Playwright", "Mistral AI", "Google Gemini", "Tesseract OCR"],
@@ -101,13 +116,6 @@ const Projects = () => {
       tech: ["GameMaker", "C", "Piskel", "Figma"],
       link: "https://github.com/veeuu/2D-PixelGame-MarioStyle",
       img: pixelChar
-    },
-    {
-      title: "Translatron",
-      desc: "Multilingual text & document translation web app with PDF generation support.",
-      tech: ["React", "Python", "Flask", "MongoDB", "Google Translate", "Tesseract OCR"],
-      link: "https://github.com/veeuu/Translatron",
-      img: translation
     }
   ];
 
