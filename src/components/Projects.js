@@ -83,6 +83,14 @@ const Projects = () => {
       img: browserGamesImg
     },
     {
+      title: "Flutter Gym Management System",
+      desc: "A Flutter-based fitness management system for gym trainers, featuring secure authentication, client management, and an intuitive Material Design dashboard powered by Provider state management.",
+      tech: ["Flutter", "Dart", "Provider", "SharedPreferences", "Material Design", "Image Picker"],
+      link: "https://github.com/veeuu/GymApp",
+      apk: "/app-release.apk",
+      img: gymAppImg
+    },
+    {
       title: "Web Scraping Automation",
       desc: "Automated data extraction pipeline for scraping and structuring large datasets.",
       tech: ["Python", "BeautifulSoup", "Pandas", "Excel", "Playwright", "Mistral AI", "Google Gemini", "Tesseract OCR"],
@@ -95,14 +103,6 @@ const Projects = () => {
       tech: ["Python", "Automation", "SMTP", "REST APIs"],
       link: "https://github.com/veeuu/Email_Automation",
       img: emailMarketingImg
-    },
-    {
-      title: "Flutter Gym Management System",
-      desc: "A Flutter-based fitness management system for gym trainers, featuring secure authentication, client management, and an intuitive Material Design dashboard powered by Provider state management.",
-      tech: ["Flutter", "Dart", "Provider", "SharedPreferences", "Material Design", "Image Picker"],
-      link: "https://github.com/veeuu/GymApp",
-      apk: "/app-release.apk",
-      img: gymAppImg
     },
     {
       title: "VocalEdge : Your Personal Interview Trainer",
