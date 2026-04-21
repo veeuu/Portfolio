@@ -91,18 +91,18 @@ const Projects = () => {
       img: gymAppImg
     },
     {
-      title: "Web Scraping Automation",
-      desc: "Automated data extraction pipeline for scraping and structuring large datasets.",
-      tech: ["Python", "BeautifulSoup", "Pandas", "Excel", "Playwright", "Mistral AI", "Google Gemini", "Tesseract OCR"],
-      link: "https://github.com/veeuu/Web-Scraping",
-      img: webImg
-    },
-    {
       title: "Email Marketing System",
       desc: "Automated email marketing pipeline for sending personalized campaigns, managing subscriber lists, and tracking engagement metrics at scale.",
       tech: ["Python", "Automation", "SMTP", "REST APIs"],
       website: "https://emailautomation-production-2930.up.railway.app/",
       img: emailMarketingImg
+    },
+    {
+      title: "Web Scraping Automation",
+      desc: "Automated data extraction pipeline for scraping and structuring large datasets.",
+      tech: ["Python", "BeautifulSoup", "Pandas", "Excel", "Playwright", "Mistral AI", "Google Gemini", "Tesseract OCR"],
+      link: "https://github.com/veeuu/Web-Scraping",
+      img: webImg
     },
     {
       title: "VocalEdge : Your Personal Interview Trainer",
