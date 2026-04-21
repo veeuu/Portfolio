@@ -101,7 +101,7 @@ const Projects = () => {
       title: "Email Marketing System",
       desc: "Automated email marketing pipeline for sending personalized campaigns, managing subscriber lists, and tracking engagement metrics at scale.",
       tech: ["Python", "Automation", "SMTP", "REST APIs"],
-      link: "https://github.com/veeuu/Email_Automation",
+      website: "https://emailautomation-production-2930.up.railway.app/",
       img: emailMarketingImg
     },
     {
