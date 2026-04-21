@@ -30,7 +30,7 @@ const Projects = () => {
       desc: "Developed the complete startup company website and an administrative dashboard. Technologies include a modern full-stack setup for a dynamic user experience.",
       tech: ["React Native", "Node.js", "MongoDB", "Express"],
       // Removed: link: "https://github.com/EcstasyVentures/EcstasyVentures",
-      website: "https://ecstasyventures.com/",
+      // website: "https://ecstasyventures.com/",
       img: ecstasyVenturesImg
     },
     {
@@ -38,7 +38,7 @@ const Projects = () => {
       desc: "Designed and developed the launching page for VTA5, a virtual trading arena. Built with a focus on responsiveness and performance, deployed on Google Cloud Platform.",
       tech: ["React Native", "Node.js", "Firebase", "GCP"],
       // Removed: link: "https://github.com/veeuu/VTA5",
-      website: "https://vta5.com",
+      // website: "https://vta5.com",
       img: vta5Img
     },
     {
