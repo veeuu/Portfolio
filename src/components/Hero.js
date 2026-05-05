@@ -4,7 +4,7 @@ import { SiFiverr } from "react-icons/si";
 import "../App.css";
 
 import profile from "../assets/PROFILE.jpg";
-import resume from "../assets/VidhishaResume.pdf";
+import resume from "../assets/VidhishaKambleResume.pdf";
 
 const roles = ["AI Developer", "Full-Stack Engineer", "Freelancer", "Problem Solver", "Tech Enthusiast"];
 
