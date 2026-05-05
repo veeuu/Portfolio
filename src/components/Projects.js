@@ -51,7 +51,7 @@ const Projects = () => {
     },
     {
       title: "Founder Intelligence System",
-      desc: "Multi-agent AI pipeline that transforms raw signals — transcripts, competitor data, app reviews, and Reddit threads — into structured product insights and founder-ready answers.",
+      desc: "Multi-agent AI pipeline that transforms raw signals  transcripts, competitor data, app reviews, and Reddit threads into structured product insights and founder-ready answers.",
       tech: ["Python", "LangChain", "RAG", "OpenAI", "Multi-Agent", "FastAPI", "Apify", "Hugging Face", "Google Gemini", "Qwen", "Ollama"],
       img: founderIntelligenceImg
     }
@@ -77,7 +77,7 @@ const Projects = () => {
     },
     {
       title: "Browser Games Collection",
-      desc: "A collection of interactive browser games built with vanilla HTML, CSS, and JavaScript — no frameworks, no dependencies. Features touch/swipe support and an auto-solver using the algorithm.",
+      desc: "A collection of interactive browser games built with vanilla HTML, CSS, and JavaScript  no frameworks, no dependencies. Features touch/swipe support and an auto-solver using the algorithm.",
       tech: ["HTML", "CSS", "JavaScript", "GitHub Pages"],
       website: "https://veeuu.github.io/Games/",
       img: browserGamesImg
