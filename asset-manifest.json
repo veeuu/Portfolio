@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.e151e59b.css",
-    "main.js": "/Portfolio/static/js/main.a3097c54.js",
+    "main.js": "/Portfolio/static/js/main.bd825d4c.js",
     "static/js/453.96453769.chunk.js": "/Portfolio/static/js/453.96453769.chunk.js",
     "static/media/pixel-char.png": "/Portfolio/static/media/pixel-char.261d8f99184a950bdbd5.png",
     "static/media/web.jpg": "/Portfolio/static/media/web.ed3177e5e65a84396c1a.jpg",
@@ -11,7 +11,7 @@
     "static/media/PROFILE.jpg": "/Portfolio/static/media/PROFILE.18ae22f83ae85bcf9fd5.jpg",
     "static/media/ai-study.jpg": "/Portfolio/static/media/ai-study.c4c8b1230ca09a66885c.jpg",
     "static/media/image.png": "/Portfolio/static/media/image.30d85644dacb4fe3a701.png",
-    "static/media/VidhishaResume.pdf": "/Portfolio/static/media/VidhishaResume.3c404714de2a15b383bd.pdf",
+    "static/media/VidhishaKambleResume.pdf": "/Portfolio/static/media/VidhishaKambleResume.997ca9afcb3bfd7466f9.pdf",
     "static/media/vta5.jpg": "/Portfolio/static/media/vta5.ef9e9f335c7dda77ff34.jpg",
     "static/media/ai-interview.jpg": "/Portfolio/static/media/ai-interview.a042907005321c2a1d94.jpg",
     "static/media/email_marketing.webp": "/Portfolio/static/media/email_marketing.ab3bfb572c4c2e5d5d2f.webp",
@@ -20,11 +20,11 @@
     "static/media/founder_intelligence.webp": "/Portfolio/static/media/founder_intelligence.75386776fefec9584bca.webp",
     "index.html": "/Portfolio/index.html",
     "main.e151e59b.css.map": "/Portfolio/static/css/main.e151e59b.css.map",
-    "main.a3097c54.js.map": "/Portfolio/static/js/main.a3097c54.js.map",
+    "main.bd825d4c.js.map": "/Portfolio/static/js/main.bd825d4c.js.map",
     "453.96453769.chunk.js.map": "/Portfolio/static/js/453.96453769.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e151e59b.css",
-    "static/js/main.a3097c54.js"
+    "static/js/main.bd825d4c.js"
   ]
 }
