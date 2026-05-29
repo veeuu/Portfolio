@@ -8,6 +8,7 @@ import aiStudy from "../assets/ai-study.jpg";
 import translation from "../assets/translation.png";
 import webImg from "../assets/web.jpg";
 import gymAppImg from "../assets/GymApp.webp";
+import gixelLabsImg from "../assets/Gixel Labs ( White ) (1).png";
 
 // **Updated Image Imports**
 import ecstasyVenturesImg from "../assets/ecstasy-ventures.jpg"; // Placeholder for EcstasyVentures image
@@ -54,6 +55,22 @@ const Projects = () => {
       desc: "Multi-agent AI pipeline that transforms raw signals  transcripts, competitor data, app reviews, and Reddit threads into structured product insights and founder-ready answers.",
       tech: ["Python", "LangChain", "RAG", "OpenAI", "Multi-Agent", "FastAPI", "Apify", "Hugging Face", "Google Gemini", "Qwen", "Ollama"],
       img: founderIntelligenceImg
+    },
+    {
+      title: "Gixel Labs E-Commerce Platform",
+      desc: "Developed and managed the complete e-commerce platform for Gixel Labs, including custom Shopify theme development, product pages, FAQ system, Google Analytics integration, Shiprocket delivery tracking, conversion optimization, and responsive storefront design.",
+      tech: [
+        "Shopify",
+        "Liquid",
+        "JavaScript",
+        "HTML",
+        "CSS",
+        "Google Analytics",
+        "Shiprocket",
+        "E-Commerce"
+      ],
+      website: "https://www.gixellabs.com/",
+      img: gixelLabsImg
     }
   ];
 
